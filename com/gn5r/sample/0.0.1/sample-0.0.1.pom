@@ -24,8 +24,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>12</maven.compiler.source>
+		<maven.compiler.target>12</maven.compiler.target>
 		<github.global.server>github</github.global.server>
 		<git.branchName>mvn-repo</git.branchName>
 		<git.repositoryOwner>gn5r</git.repositoryOwner>
@@ -58,7 +58,7 @@
 				<version>3.1.1</version>
 				<configuration>
 					<author>true</author>
-					<source>1.8</source>
+					<source>12</source>
 					<show>protected</show>
 					<encoding>UTF-8</encoding>
 					<charset>UTF-8</charset>
