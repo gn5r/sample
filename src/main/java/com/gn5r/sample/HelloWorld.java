@@ -1,5 +1,8 @@
 package com.gn5r.sample;
 
+/**
+ * サンプルクラス
+*/
 public class HelloWorld {
 
 	private String Hello;
