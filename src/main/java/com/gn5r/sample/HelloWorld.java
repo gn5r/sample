@@ -1,23 +1,33 @@
 package com.gn5r.sample;
 
 /**
+ * @author gn5r
+ *
  * サンプルクラス
 */
 public class HelloWorld {
 
-	private String Hello;
+	private String hello;
 
 	/**
-	 * インスタンス生成時にローカル変数に適当な文字列を代入しておく
+	 * インスタンス生成時に適当な文字列を代入する
 	 */
 	public HelloWorld() {
-		this.Hello = "Hello World";
+		this.hello = "Hello World";
 	}
 
 	/**
-	 * システムコンソールに<strong>Hello World</strong>と出るだけの関数
+	 * 文字列を設定する
+	 * @param text 文字列
+	 */
+	public HelloWorld(String text) {
+		this.hello = text;
+	}
+
+	/**
+	 * システムコンソールにHello Worldと出るだけの関数
 	 */
 	public void Hello() {
-		System.out.println(Hello);
+		System.out.println(hello);
 	}
 }
